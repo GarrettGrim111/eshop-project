@@ -30,7 +30,7 @@ const Header = ({ currentUser, hidden }) => {
 
         {/* contact page should be finished in future ... when i figure out what to write there */}
 
-        <OptionLink to="/shop">CONTACT</OptionLink>
+        <OptionLink to="/contact">CONTACT</OptionLink>
 
         {currentUser ? (
           <OptionDiv onClick={() => auth.signOut()}>SIGN OUT</OptionDiv>
