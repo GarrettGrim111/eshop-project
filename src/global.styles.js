@@ -6,6 +6,8 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     box-sizing: border-box;
   }
+
+ 
   
   body {
     font-family: "Open Sans Condensed", sans-serif;

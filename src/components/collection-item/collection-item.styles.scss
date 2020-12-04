@@ -55,6 +55,9 @@
     .price {
       width: 10%;
       text-align: right;
+      @media (max-width: 450px) {
+        padding-right: 25px;
+      }
     }
   }
   @media (max-width: 800px) {
